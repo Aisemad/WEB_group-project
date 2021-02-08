@@ -1,0 +1,200 @@
+
+
+h1{
+  font-family: 'Potta One', cursive;
+  text-align: center;
+  font-size: x-large;
+  color: black;
+  background-color:#ffdada;
+  height: 50px;
+  position:relative;
+}
+
+h2 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  text-align: center;
+  
+}
+  
+  ul {
+    list-style: none;
+  }
+
+
+  .nav {
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    background-color:#ffdada;
+    z-index: 10;
+  }
+  
+  .nav-list {
+    display: flex;
+    margin-right: 2rem;
+    
+  }
+
+  
+  .nav-list a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    font-size:larger;
+    padding: 1rem;
+  }
+  
+  .nav-list a:hover{
+      background-color: blanchedalmond;
+      height: 17px;
+    
+  }
+
+
+  .welcome-section {
+    font-family: 'Potta One', cursive;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-image: url(menu.png);
+    background-size: cover;
+  }
+  
+  .welcome-section > p {
+    position: relative;
+    left: 300px;
+    bottom:  100px;
+    font-family: 'Potta One', cursive;
+    font-size: 3rem;
+    font-weight: 200;
+    font-style: italic;
+    color: #CC7E85;
+  }
+
+  .menuimg:hover{
+    transform: translateY(8px);
+  }
+
+  p:hover{
+        transform: translateY(8px);
+  }
+
+  }
+  
+  .dropdown-menu{
+    padding: 9.28px;
+  }
+  .btn {
+    display: inline-block;
+    padding: 1rem 2rem;
+    border-radius: 2px;
+  }
+  
+  .btn-show-all {
+    font-size: 2rem;
+    background: var(--main-gray);
+    transition: background 0.3s ease-out;
+  }
+  
+  .btn-show-all:hover {
+    background: var(--main-red);
+  }
+  
+  .btn-show-all:hover > i {
+    transform: translateX(2px);
+  }
+  
+  .btn-show-all > i {
+    margin-left: 10px;
+    transform: translateX(0);
+    transition: transform 0.3s ease-out;
+  }
+  
+  
+  .contact-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 80vh;
+    padding: 0 2rem;
+    background-color: #ffdada;
+  }
+  
+  .contact-section-header > h2 {
+    font-size: 6rem;
+  }
+  
+  @media (max-width: 28.75em) {
+    .contact-section-header > h2 {
+      font-size: 4rem;
+    }
+  }
+  
+  .contact-section-header > p {
+    font-style: italic;
+  }
+  
+  .contact-links {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 980px;
+    margin-top: 4rem;
+    flex-wrap: wrap;
+  }
+  
+  .contact-details {
+    font-size: 2.4rem;
+    text-shadow: 2px 2px 1px #1f1f1f;
+    transition: transform 0.3s ease-out;
+  }
+  
+  .contact-details:hover {
+    transform: translateY(8px);
+  }
+
+  .discr{
+    font-family: 'Raleway', sans-serif;
+    font-size: medium;
+    color: #CC7E85;
+    position: relative;
+    top: 10px;
+  }
+  .price{
+    font-family: 'Potta One', cursive;
+    font-size: medium;
+    color: #75485E;
+    text-align: end;
+    background-color: blanchedalmond;
+
+
+  }
+   .btn{
+     border: none;
+     background: none;
+     justify-content: flex-end;
+   }
+
+.button>a{
+  margin-left: 110px;
+  background-color: #CC7E85;
+  color: white;
+}
+ .button>a:hover{
+  transform: translateY(8px);
+  background-color:  #CC7E85;
+ }
+
+ 
+  
